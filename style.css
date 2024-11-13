@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding :0;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    
+}
+
+header nav ul li {
+    margin-left :20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+
+}
+
+header .logo img{
+    width: 100px;
+}
+header .logo2 a{
+    color:white ;
+    text-decoration: none;
+
+}
+
+header .logo2{
+    display: flex;
+    justify-content: center ;
+}
+
+main .container1{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_6_Website_Desktop_1_42920f3f95.jpg);
+    width: 100%;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .container2 {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Koreasat6_A_UCS_DSC_8729_mobile_c2244ce741.jpg);
+    width: 100%;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+main .container2 h1{
+    font-size: 50px;
+    margin-top: -10px;
+}
+main .container1 h1{
+    color: white;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+main .container1 p{
+    color: white;
+}
+
+main .CONTAINER3 {
+    background-image:url(https://sxcontent9668.azureedge.us/cms-assets/assets/starlink_6_69_desktop_5f9e895a09.jpg) ;
+    width: 100%;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+main .CONTAINER3 h1{
+    font-size: 50px;
+    margin-top: -10PX;
+}
+
+main .container4 {
+    background-image:url(https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg) ;
+    width: 100%;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+main .container4 h1{
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+main .container5 {
+    background-image:url(https://sxcontent9668.azureedge.us/cms-assets/assets/make_life_multiplanetary_desktop_3fa7cff73c.jpg) ;
+    width: 100%;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+footer{
+    padding-top: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
+footer ul {
+    display: flex;
+}
+footer ul li{
+    margin-left: 29px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
